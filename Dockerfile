@@ -4,7 +4,7 @@ FROM golang:1.23.4-alpine3.21
 # create directory
 RUN mkdir /app
 
-# copy all files in current directory to app folder
+# copy all files from project directory to app folder
 ADD . /app
 
 # set working directory (here after all operations will happen from here)
